@@ -2,7 +2,6 @@ let nome = "Eve"
 let quantidadeXP = 5001
 let nivel = ""
 
-for (let i = 0; i < 1; i++) {
 switch (true) {
     case (quantidadeXP <= 1000):
         nivel = "Ferro"
@@ -27,7 +26,6 @@ switch (true) {
         break
     default:
         nivel = "Radiante"
-}
 }
 /*
 for (let i = 0; i < 1; i++) {
