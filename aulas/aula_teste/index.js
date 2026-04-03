@@ -2,6 +2,7 @@ let nome = "Eve"
 let quantidadeXP = 5001
 let nivel = ""
 
+for (let i = 0; i < 1; i++) {
 switch (true) {
     case (quantidadeXP <= 1000):
         nivel = "Ferro"
@@ -27,8 +28,10 @@ switch (true) {
     default:
         nivel = "Radiante"
 }
-
-/*if (quantidadeXP <= 1000) {
+}
+/*
+for (let i = 0; i < 1; i++) {
+if (quantidadeXP <= 1000) {
     nivel = "Ferro"
 } else if ((quantidadeXP >= 1001) && (quantidadeXP <= 2000)) {
     nivel = "Bronze"
@@ -44,6 +47,7 @@ switch (true) {
     nivel = "Imortal"
 } else {
     nivel = "Radiante"
-}*/
-
+}
+}
+*/
 console.log("O Herói de nome " + nome + " está no nível de "+ nivel)
